@@ -54,17 +54,32 @@ namespace AutoUpdaterDotNET
 			// labelUpdate
 			// 
 			resources.ApplyResources(labelUpdate, "labelUpdate");
+			labelUpdate.IsDerivedStyle = true;
 			labelUpdate.Name = "labelUpdate";
+			labelUpdate.Style = ReaLTaiizor.Enum.Metro.Style.Dark;
+			labelUpdate.StyleManager = metroStyleManager;
+			labelUpdate.ThemeAuthor = "Taiizor";
+			labelUpdate.ThemeName = "MetroDark";
 			// 
 			// labelDescription
 			// 
 			resources.ApplyResources(labelDescription, "labelDescription");
+			labelDescription.IsDerivedStyle = true;
 			labelDescription.Name = "labelDescription";
+			labelDescription.Style = ReaLTaiizor.Enum.Metro.Style.Dark;
+			labelDescription.StyleManager = metroStyleManager;
+			labelDescription.ThemeAuthor = "Taiizor";
+			labelDescription.ThemeName = "MetroDark";
 			// 
 			// labelReleaseNotes
 			// 
 			resources.ApplyResources(labelReleaseNotes, "labelReleaseNotes");
+			labelReleaseNotes.IsDerivedStyle = true;
 			labelReleaseNotes.Name = "labelReleaseNotes";
+			labelReleaseNotes.Style = ReaLTaiizor.Enum.Metro.Style.Dark;
+			labelReleaseNotes.StyleManager = metroStyleManager;
+			labelReleaseNotes.ThemeAuthor = "Taiizor";
+			labelReleaseNotes.ThemeName = "MetroDark";
 			// 
 			// buttonUpdate
 			// 
@@ -84,6 +99,7 @@ namespace AutoUpdaterDotNET
 			// 
 			// pictureBoxIcon
 			// 
+			pictureBoxIcon.BackColor = System.Drawing.Color.Transparent;
 			pictureBoxIcon.Image = Properties.Resources.update;
 			resources.ApplyResources(pictureBoxIcon, "pictureBoxIcon");
 			pictureBoxIcon.Name = "pictureBoxIcon";

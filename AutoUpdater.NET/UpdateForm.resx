@@ -110,87 +110,12 @@
   <data name="labelUpdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>227, 19</value>
   </data>
-  <data name="labelUpdate.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="labelUpdate.Text" xml:space="preserve">
-    <value>A new version of {0} is available!</value>
-  </data>
-  <data name="&gt;&gt;labelUpdate.Name" xml:space="preserve">
-    <value>labelUpdate</value>
-  </data>
-  <data name="&gt;&gt;labelUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelUpdate.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelUpdate.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="labelDescription.AutoSize" type="System.Boolean, mscorlib">
+  <metadata name="metroStyleManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
-  <data name="labelDescription.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="labelDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 50</value>
-  </data>
-  <data name="labelDescription.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>550, 0</value>
-  </data>
-  <data name="labelDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>479, 15</value>
-  </data>
-  <data name="labelDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="labelDescription.Text" xml:space="preserve">
-    <value>{0} {1} is now available. You have version {2} installed. Would you like to download it now?</value>
-  </data>
-  <data name="&gt;&gt;labelDescription.Name" xml:space="preserve">
-    <value>labelDescription</value>
-  </data>
-  <data name="&gt;&gt;labelDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelDescription.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelDescription.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="labelReleaseNotes.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelReleaseNotes.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt, style=Bold</value>
-  </data>
-  <data name="labelReleaseNotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 90</value>
-  </data>
-  <data name="labelReleaseNotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 17</value>
-  </data>
-  <data name="labelReleaseNotes.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="labelReleaseNotes.Text" xml:space="preserve">
-    <value>Release Notes:</value>
-  </data>
-  <data name="&gt;&gt;labelReleaseNotes.Name" xml:space="preserve">
-    <value>labelReleaseNotes</value>
-  </data>
-  <data name="&gt;&gt;labelReleaseNotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelReleaseNotes.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelReleaseNotes.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
+  </metadata>
   <data name="buttonUpdate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
@@ -230,44 +155,11 @@
   <data name="&gt;&gt;buttonUpdate.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="buttonRemindLater.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
   </data>
-  <data name="buttonRemindLater.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="buttonRemindLater.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 573</value>
-  </data>
-  <data name="buttonRemindLater.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="buttonRemindLater.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 28</value>
-  </data>
-  <data name="buttonRemindLater.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="buttonRemindLater.Text" xml:space="preserve">
-    <value>Remind me later</value>
-  </data>
-  <data name="buttonRemindLater.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="buttonRemindLater.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
-  </data>
-  <data name="&gt;&gt;buttonRemindLater.Name" xml:space="preserve">
-    <value>buttonRemindLater</value>
-  </data>
-  <data name="&gt;&gt;buttonRemindLater.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonRemindLater.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonRemindLater.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>643, 612</value>
   </data>
   <data name="pictureBoxIcon.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 14</value>
@@ -292,6 +184,69 @@
   </data>
   <data name="&gt;&gt;pictureBoxIcon.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="labelReleaseNotes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelReleaseNotes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelReleaseNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 90</value>
+  </data>
+  <data name="labelReleaseNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="labelReleaseNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelReleaseNotes.Text" xml:space="preserve">
+    <value>Release Notes:</value>
+  </data>
+  <data name="&gt;&gt;labelReleaseNotes.Name" xml:space="preserve">
+    <value>labelReleaseNotes</value>
+  </data>
+  <data name="&gt;&gt;labelReleaseNotes.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MetroLabel, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;labelReleaseNotes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelReleaseNotes.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDescription.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="labelDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 50</value>
+  </data>
+  <data name="labelDescription.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>550, 0</value>
+  </data>
+  <data name="labelDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>479, 15</value>
+  </data>
+  <data name="labelDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelDescription.Text" xml:space="preserve">
+    <value>{0} {1} is now available. You have version {2} installed. Would you like to download it now?</value>
+  </data>
+  <data name="&gt;&gt;labelDescription.Name" xml:space="preserve">
+    <value>labelDescription</value>
+  </data>
+  <data name="&gt;&gt;labelDescription.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MetroLabel, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;labelDescription.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelDescription.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="buttonSkip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -332,6 +287,45 @@
   <data name="&gt;&gt;buttonSkip.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="buttonRemindLater.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="buttonRemindLater.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="buttonRemindLater.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 573</value>
+  </data>
+  <data name="buttonRemindLater.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="buttonRemindLater.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 28</value>
+  </data>
+  <data name="buttonRemindLater.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonRemindLater.Text" xml:space="preserve">
+    <value>Remind me later</value>
+  </data>
+  <data name="buttonRemindLater.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="buttonRemindLater.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;buttonRemindLater.Name" xml:space="preserve">
+    <value>buttonRemindLater</value>
+  </data>
+  <data name="&gt;&gt;buttonRemindLater.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRemindLater.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonRemindLater.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <data name="webView2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -364,18 +358,6 @@
   </data>
   <data name="&gt;&gt;webView2.ZOrder" xml:space="preserve">
     <value>7</value>
-  </data>
-  <metadata name="metroStyleManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>643, 612</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -938,5 +920,23 @@
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>ReaLTaiizor.Forms.MetroForm, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelUpdate.Text" xml:space="preserve">
+    <value>A new version of {0} is available!</value>
+  </data>
+  <data name="&gt;&gt;labelUpdate.Name" xml:space="preserve">
+    <value>labelUpdate</value>
+  </data>
+  <data name="&gt;&gt;labelUpdate.Type" xml:space="preserve">
+    <value>ReaLTaiizor.Controls.MetroLabel, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;labelUpdate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelUpdate.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
 </root>
