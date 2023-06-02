@@ -77,7 +77,7 @@
     <value>23, 23</value>
   </data>
   <data name="webBrowser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>554, 471</value>
+    <value>570, 510</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="webBrowser.TabIndex" type="System.Int32, mscorlib">
@@ -99,7 +99,7 @@
     <value>True</value>
   </data>
   <data name="labelUpdate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10.5pt, style=Bold</value>
+    <value>Roboto, 14px</value>
   </data>
   <data name="labelUpdate.Location" type="System.Drawing.Point, System.Drawing">
     <value>91, 14</value>
@@ -108,7 +108,7 @@
     <value>550, 0</value>
   </data>
   <data name="labelUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 19</value>
+    <value>229, 19</value>
   </data>
   <data name="labelUpdate.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -120,7 +120,7 @@
     <value>labelUpdate</value>
   </data>
   <data name="&gt;&gt;labelUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>ReaLTaiizor.Controls.MaterialLabel, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;labelUpdate.Parent" xml:space="preserve">
     <value>$this</value>
@@ -132,7 +132,7 @@
     <value>True</value>
   </data>
   <data name="labelDescription.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
+    <value>Roboto, 14px</value>
   </data>
   <data name="labelDescription.Location" type="System.Drawing.Point, System.Drawing">
     <value>91, 50</value>
@@ -141,7 +141,7 @@
     <value>550, 0</value>
   </data>
   <data name="labelDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>479, 15</value>
+    <value>550, 19</value>
   </data>
   <data name="labelDescription.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -153,7 +153,7 @@
     <value>labelDescription</value>
   </data>
   <data name="&gt;&gt;labelDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>ReaLTaiizor.Controls.MaterialLabel, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;labelDescription.Parent" xml:space="preserve">
     <value>$this</value>
@@ -165,13 +165,13 @@
     <value>True</value>
   </data>
   <data name="labelReleaseNotes.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt, style=Bold</value>
+    <value>Roboto, 14px</value>
   </data>
   <data name="labelReleaseNotes.Location" type="System.Drawing.Point, System.Drawing">
     <value>91, 90</value>
   </data>
   <data name="labelReleaseNotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 17</value>
+    <value>105, 19</value>
   </data>
   <data name="labelReleaseNotes.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -183,7 +183,7 @@
     <value>labelReleaseNotes</value>
   </data>
   <data name="&gt;&gt;labelReleaseNotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>ReaLTaiizor.Controls.MaterialLabel, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;labelReleaseNotes.Parent" xml:space="preserve">
     <value>$this</value>
@@ -194,17 +194,20 @@
   <data name="buttonUpdate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
+  <data name="buttonUpdate.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="buttonUpdate.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="buttonUpdate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>495, 612</value>
+    <value>559, 643</value>
   </data>
   <data name="buttonUpdate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="buttonUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 28</value>
+    <value>105, 36</value>
   </data>
   <data name="buttonUpdate.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -222,7 +225,7 @@
     <value>buttonUpdate</value>
   </data>
   <data name="&gt;&gt;buttonUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>ReaLTaiizor.Controls.MaterialButton, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;buttonUpdate.Parent" xml:space="preserve">
     <value>$this</value>
@@ -233,17 +236,20 @@
   <data name="buttonRemindLater.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
+  <data name="buttonRemindLater.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="buttonRemindLater.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="buttonRemindLater.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 612</value>
+    <value>330, 643</value>
   </data>
   <data name="buttonRemindLater.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="buttonRemindLater.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 28</value>
+    <value>177, 36</value>
   </data>
   <data name="buttonRemindLater.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -261,7 +267,7 @@
     <value>buttonRemindLater</value>
   </data>
   <data name="&gt;&gt;buttonRemindLater.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>ReaLTaiizor.Controls.MaterialButton, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;buttonRemindLater.Parent" xml:space="preserve">
     <value>$this</value>
@@ -296,17 +302,20 @@
   <data name="buttonSkip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
+  <data name="buttonSkip.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="buttonSkip.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="buttonSkip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 612</value>
+    <value>95, 643</value>
   </data>
   <data name="buttonSkip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="buttonSkip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 28</value>
+    <value>182, 36</value>
   </data>
   <data name="buttonSkip.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -324,7 +333,7 @@
     <value>buttonSkip</value>
   </data>
   <data name="&gt;&gt;buttonSkip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>ReaLTaiizor.Controls.MaterialButton, ReaLTaiizor, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;buttonSkip.Parent" xml:space="preserve">
     <value>$this</value>
@@ -345,7 +354,7 @@
     <value>23, 23</value>
   </data>
   <data name="webView2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>554, 471</value>
+    <value>570, 510</value>
   </data>
   <data name="webView2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -372,7 +381,7 @@
     <value>7, 15</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>659, 651</value>
+    <value>675, 690</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>

@@ -38,7 +38,6 @@ internal sealed partial class UpdateForm : MaterialForm
 			MaterialTextShade.WHITE
 		);
 
-
 		InitializeBrowserControl();
 		buttonSkip.Visible = AutoUpdater.ShowSkipButton;
 		buttonRemindLater.Visible = AutoUpdater.ShowRemindLaterButton;
