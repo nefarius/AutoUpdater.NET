@@ -7,19 +7,38 @@ using System.IO;
 using System.Windows.Forms;
 using Microsoft.Web.WebView2.Core;
 using Microsoft.Win32;
+using ReaLTaiizor.Colors;
 using ReaLTaiizor.Forms;
+using ReaLTaiizor.Manager;
+using ReaLTaiizor.Util;
 using static System.Reflection.Assembly;
 
 namespace AutoUpdaterDotNET;
 
-internal sealed partial class UpdateForm : MetroForm
+internal sealed partial class UpdateForm : MaterialForm
 {
 	private readonly UpdateInfoEventArgs _args;
+	private readonly MaterialSkinManager _materialSkinManager;
 
 	public UpdateForm(UpdateInfoEventArgs args)
 	{
+
 		_args = args;
 		InitializeComponent();
+
+		_materialSkinManager = MaterialSkinManager.Instance;
+		_materialSkinManager.EnforceBackcolorOnAllComponents = true;
+		_materialSkinManager.AddFormToManage(this);
+		_materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
+		_materialSkinManager.ColorScheme = new MaterialColorScheme(
+			MaterialPrimary.Indigo500,
+			MaterialPrimary.Indigo700,
+			MaterialPrimary.Indigo100,
+			MaterialAccent.Pink200,
+			MaterialTextShade.WHITE
+		);
+
+
 		InitializeBrowserControl();
 		buttonSkip.Visible = AutoUpdater.ShowSkipButton;
 		buttonRemindLater.Visible = AutoUpdater.ShowRemindLaterButton;

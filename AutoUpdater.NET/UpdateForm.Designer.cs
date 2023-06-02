@@ -32,15 +32,14 @@ namespace AutoUpdaterDotNET
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UpdateForm));
 			webBrowser = new System.Windows.Forms.WebBrowser();
-			labelUpdate = new ReaLTaiizor.Controls.MetroLabel();
-			labelDescription = new ReaLTaiizor.Controls.MetroLabel();
-			labelReleaseNotes = new ReaLTaiizor.Controls.MetroLabel();
+			labelUpdate = new ReaLTaiizor.Controls.MaterialLabel();
+			labelDescription = new ReaLTaiizor.Controls.MaterialLabel();
+			labelReleaseNotes = new ReaLTaiizor.Controls.MaterialLabel();
 			buttonUpdate = new System.Windows.Forms.Button();
 			buttonRemindLater = new System.Windows.Forms.Button();
 			pictureBoxIcon = new System.Windows.Forms.PictureBox();
 			buttonSkip = new System.Windows.Forms.Button();
 			webView2 = new Microsoft.Web.WebView2.WinForms.WebView2();
-			metroStyleManager = new ReaLTaiizor.Manager.MetroStyleManager();
 			((System.ComponentModel.ISupportInitialize)pictureBoxIcon).BeginInit();
 			((System.ComponentModel.ISupportInitialize)webView2).BeginInit();
 			SuspendLayout();
@@ -54,32 +53,17 @@ namespace AutoUpdaterDotNET
 			// labelUpdate
 			// 
 			resources.ApplyResources(labelUpdate, "labelUpdate");
-			labelUpdate.IsDerivedStyle = true;
 			labelUpdate.Name = "labelUpdate";
-			labelUpdate.Style = ReaLTaiizor.Enum.Metro.Style.Dark;
-			labelUpdate.StyleManager = metroStyleManager;
-			labelUpdate.ThemeAuthor = "Taiizor";
-			labelUpdate.ThemeName = "MetroDark";
 			// 
 			// labelDescription
 			// 
 			resources.ApplyResources(labelDescription, "labelDescription");
-			labelDescription.IsDerivedStyle = true;
 			labelDescription.Name = "labelDescription";
-			labelDescription.Style = ReaLTaiizor.Enum.Metro.Style.Dark;
-			labelDescription.StyleManager = metroStyleManager;
-			labelDescription.ThemeAuthor = "Taiizor";
-			labelDescription.ThemeName = "MetroDark";
 			// 
 			// labelReleaseNotes
 			// 
 			resources.ApplyResources(labelReleaseNotes, "labelReleaseNotes");
-			labelReleaseNotes.IsDerivedStyle = true;
 			labelReleaseNotes.Name = "labelReleaseNotes";
-			labelReleaseNotes.Style = ReaLTaiizor.Enum.Metro.Style.Dark;
-			labelReleaseNotes.StyleManager = metroStyleManager;
-			labelReleaseNotes.ThemeAuthor = "Taiizor";
-			labelReleaseNotes.ThemeName = "MetroDark";
 			// 
 			// buttonUpdate
 			// 
@@ -123,20 +107,11 @@ namespace AutoUpdaterDotNET
 			webView2.Name = "webView2";
 			webView2.ZoomFactor = 1D;
 			// 
-			// metroStyleManager
-			// 
-			metroStyleManager.CustomTheme = "C:\\Users\\nefar\\AppData\\Roaming\\Microsoft\\Windows\\Templates\\ThemeFile.xml";
-			metroStyleManager.OwnerForm = this;
-			metroStyleManager.Style = ReaLTaiizor.Enum.Metro.Style.Dark;
-			metroStyleManager.ThemeAuthor = "Taiizor";
-			metroStyleManager.ThemeName = "MetroDark";
-			// 
 			// UpdateForm
 			// 
 			AcceptButton = buttonUpdate;
 			resources.ApplyResources(this, "$this");
 			AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			BackgroundColor = System.Drawing.Color.FromArgb(30, 30, 30);
 			Controls.Add(pictureBoxIcon);
 			Controls.Add(labelReleaseNotes);
 			Controls.Add(labelDescription);
@@ -147,11 +122,9 @@ namespace AutoUpdaterDotNET
 			Controls.Add(webView2);
 			Controls.Add(webBrowser);
 			FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+			MaximizeBox = false;
+			MinimizeBox = false;
 			Name = "UpdateForm";
-			Style = ReaLTaiizor.Enum.Metro.Style.Dark;
-			StyleManager = metroStyleManager;
-			TextColor = System.Drawing.Color.White;
-			ThemeName = "MetroDark";
 			FormClosing += UpdateForm_FormClosing;
 			FormClosed += UpdateForm_FormClosed;
 			Load += UpdateFormLoad;
@@ -167,11 +140,10 @@ namespace AutoUpdaterDotNET
 		private System.Windows.Forms.Button buttonUpdate;
 		private System.Windows.Forms.Button buttonSkip;
 		private System.Windows.Forms.WebBrowser webBrowser;
-		private ReaLTaiizor.Controls.MetroLabel labelUpdate;
-		private ReaLTaiizor.Controls.MetroLabel labelDescription;
-		private ReaLTaiizor.Controls.MetroLabel labelReleaseNotes;
+		private ReaLTaiizor.Controls.MaterialLabel labelUpdate;
+		private ReaLTaiizor.Controls.MaterialLabel labelDescription;
+		private ReaLTaiizor.Controls.MaterialLabel labelReleaseNotes;
 		private System.Windows.Forms.PictureBox pictureBoxIcon;
 		private Microsoft.Web.WebView2.WinForms.WebView2 webView2;
-		private ReaLTaiizor.Manager.MetroStyleManager metroStyleManager;
 	}
 }
