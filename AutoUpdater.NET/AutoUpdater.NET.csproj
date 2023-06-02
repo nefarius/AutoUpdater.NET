@@ -41,18 +41,19 @@
         <DebugType>full</DebugType>
     </PropertyGroup>
     <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
-        <Reference Include="System"/>
-        <Reference Include="System.Data"/>
-        <Reference Include="System.Drawing"/>
-        <Reference Include="System.Windows.Forms"/>
-        <Reference Include="System.Xml"/>
-        <Reference Include="WindowsBase"/>
-        <Reference Include="PresentationFramework"/>
-        <Reference Include="System.Xaml"/>
-        <Reference Include="System.Runtime.Serialization"/>
-        <PackageReference Include="Resource.Embedder" Version="1.2.8" PrivateAssets="All"/>
+        <Reference Include="System" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Drawing" />
+        <Reference Include="System.Windows.Forms" />
+        <Reference Include="System.Xml" />
+        <Reference Include="WindowsBase" />
+        <Reference Include="PresentationFramework" />
+        <Reference Include="System.Xaml" />
+        <Reference Include="System.Runtime.Serialization" />
+        <PackageReference Include="Resource.Embedder" Version="1.2.8" PrivateAssets="All" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1774.30"/>
+        <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1774.30" />
+        <PackageReference Include="ReaLTaiizor" Version="3.7.9.3" />
     </ItemGroup>
 </Project>
