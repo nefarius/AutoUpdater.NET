@@ -5,10 +5,10 @@
 AutoUpdater.NET is a class library that allows .NET developers to easily add auto update functionality to their classic
 desktop application projects.
 
-## The NuGet Package  [![NuGet](https://img.shields.io/nuget/v/Autoupdater.NET.Official.svg)](https://www.nuget.org/packages/Autoupdater.NET.Official/) [![NuGet](https://img.shields.io/nuget/dt/Autoupdater.NET.Official.svg)](https://www.nuget.org/packages/Autoupdater.NET.Official/)
+## The NuGet Package  [![NuGet](https://img.shields.io/nuget/v/Nefarius.Autoupdater.NET.svg)](https://www.nuget.org/packages/Nefarius.Autoupdater.NET/) [![NuGet](https://img.shields.io/nuget/dt/Nefarius.Autoupdater.NET.svg)](https://www.nuget.org/packages/Nefarius.Autoupdater.NET/)
 
 ````powershell
-PM> Install-Package Autoupdater.NET.Official
+PM> Install-Package Nefarius.Autoupdater.NET
 ````
 
 ## Supported .NET versions

@@ -3,7 +3,7 @@
     <PropertyGroup>
         <ProjectGuid>{FB9E7E6B-B19F-4F37-A708-2996190CEF13}</ProjectGuid>
         <OutputType>library</OutputType>
-        <TargetFrameworks>net45;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
+        <TargetFrameworks>net7.0-windows</TargetFrameworks>
         <UseWindowsForms>true</UseWindowsForms>
         <UseWpf>true</UseWpf>
         <RootNamespace>AutoUpdaterDotNET</RootNamespace>
@@ -15,9 +15,11 @@
         <AssemblyVersion>1.8.1.0</AssemblyVersion>
         <FileVersion>1.8.1.0</FileVersion>
         <SignAssembly>true</SignAssembly>
+        <!--
         <AssemblyOriginatorKeyFile>AutoUpdater.NET.snk</AssemblyOriginatorKeyFile>
+        -->
         <NeutralLanguage>en</NeutralLanguage>
-        <PackageId>Autoupdater.NET.Official</PackageId>
+        <PackageId>Nefarius.Autoupdater.NET</PackageId>
         <IncludeSymbols>true</IncludeSymbols>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageVersion>1.8.1.0</PackageVersion>

@@ -3,7 +3,7 @@
     <PropertyGroup>
         <ProjectGuid>{91DE558C-6DB8-429B-A069-C0491DCFF15B}</ProjectGuid>
         <OutputType>WinExe</OutputType>
-        <TargetFrameworks>net45;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
+        <TargetFrameworks>net7.0-windows</TargetFrameworks>
         <UseWindowsForms>true</UseWindowsForms>
         <AssemblyTitle>ZipExtractor</AssemblyTitle>
         <Company>RBSoft</Company>
@@ -16,7 +16,9 @@
         <ApplicationIcon>ZipExtractor.ico</ApplicationIcon>
         <ApplicationManifest>app.manifest</ApplicationManifest>
         <SignAssembly>true</SignAssembly>
+        <!--
         <AssemblyOriginatorKeyFile>ZipExtractor.snk</AssemblyOriginatorKeyFile>
+        -->
         <NeutralLanguage>en</NeutralLanguage>
         <LangVersion>default</LangVersion>
         <IsPackable>false</IsPackable>
