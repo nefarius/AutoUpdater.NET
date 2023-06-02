@@ -32,9 +32,9 @@ namespace AutoUpdaterDotNET
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UpdateForm));
 			webBrowser = new System.Windows.Forms.WebBrowser();
-			labelUpdate = new System.Windows.Forms.Label();
-			labelDescription = new System.Windows.Forms.Label();
-			labelReleaseNotes = new System.Windows.Forms.Label();
+			labelUpdate = new ReaLTaiizor.Controls.MetroLabel();
+			labelDescription = new ReaLTaiizor.Controls.MetroLabel();
+			labelReleaseNotes = new ReaLTaiizor.Controls.MetroLabel();
 			buttonUpdate = new System.Windows.Forms.Button();
 			buttonRemindLater = new System.Windows.Forms.Button();
 			pictureBoxIcon = new System.Windows.Forms.PictureBox();
@@ -151,9 +151,9 @@ namespace AutoUpdaterDotNET
 		private System.Windows.Forms.Button buttonUpdate;
 		private System.Windows.Forms.Button buttonSkip;
 		private System.Windows.Forms.WebBrowser webBrowser;
-		private System.Windows.Forms.Label labelUpdate;
-		private System.Windows.Forms.Label labelDescription;
-		private System.Windows.Forms.Label labelReleaseNotes;
+		private ReaLTaiizor.Controls.MetroLabel labelUpdate;
+		private ReaLTaiizor.Controls.MetroLabel labelDescription;
+		private ReaLTaiizor.Controls.MetroLabel labelReleaseNotes;
 		private System.Windows.Forms.PictureBox pictureBoxIcon;
 		private Microsoft.Web.WebView2.WinForms.WebView2 webView2;
 		private ReaLTaiizor.Manager.MetroStyleManager metroStyleManager;
