@@ -86,7 +86,7 @@
     <value>3, 0</value>
   </data>
   <data name="labelTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>433, 19</value>
+    <value>454, 19</value>
   </data>
   <data name="labelTitle.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -126,7 +126,7 @@
     <value>6, 3, 3, 3</value>
   </data>
   <data name="radioButtonNo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>430, 15</value>
+    <value>451, 15</value>
   </data>
   <data name="radioButtonNo.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -180,7 +180,7 @@
     <value>10, 3, 10, 3</value>
   </data>
   <data name="comboBoxRemindLater.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 29</value>
+    <value>160, 29</value>
   </data>
   <data name="comboBoxRemindLater.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -249,7 +249,7 @@
     <value>10, 3, 10, 3</value>
   </data>
   <data name="buttonOK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 26</value>
+    <value>160, 26</value>
   </data>
   <data name="buttonOK.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -282,7 +282,7 @@
     <value>5</value>
   </data>
   <data name="tableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>439, 192</value>
+    <value>460, 192</value>
   </data>
   <data name="tableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -315,7 +315,7 @@
     <value>3, 32</value>
   </data>
   <data name="labelDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>433, 64</value>
+    <value>454, 64</value>
   </data>
   <data name="labelDescription.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -346,7 +346,7 @@
     <value>7, 15</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>479, 272</value>
+    <value>500, 272</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>

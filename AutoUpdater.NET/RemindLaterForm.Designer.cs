@@ -112,12 +112,13 @@
 			resources.ApplyResources(this, "$this");
 			AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			BackImage = Properties.Resources.clock_go_32;
-			BackImagePadding = new System.Windows.Forms.Padding(430, 24, 0, 0);
+			BackImagePadding = new System.Windows.Forms.Padding(440, 24, 0, 0);
 			BackMaxSize = 32;
 			Controls.Add(tableLayoutPanel);
 			MaximizeBox = false;
 			MinimizeBox = false;
 			Name = "RemindLaterForm";
+			ShadowType = ReaLTaiizor.Enum.Poison.FormShadowType.None;
 			ShowIcon = false;
 			ShowInTaskbar = false;
 			StyleManager = poisonStyleManager;
