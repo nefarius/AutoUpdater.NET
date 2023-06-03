@@ -16,7 +16,7 @@ internal sealed class UpdateFormPreferences
 	public bool UseDarkTheme { get; set; } = false;
 
 	/// <summary>
-	///		Gets the desired <see cref="ThemeStyle"/>.
+	///     Gets the desired <see cref="ThemeStyle" />.
 	/// </summary>
 	public ThemeStyle Theme
 	{
@@ -30,10 +30,9 @@ internal sealed class UpdateFormPreferences
 						Registry.CurrentUser.OpenSubKey(
 							@"SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize");
 
-					if (bool.TryParse(personalizeKey?.GetValue("AppsUseLightTheme") as string, out var useLightTheme))
-						return useLightTheme ? ThemeStyle.Light : ThemeStyle.Dark;
+					var useLightTheme = personalizeKey?.GetValue("AppsUseLightTheme") as int?;
 
-					return ThemeStyle.Default;
+					return useLightTheme > 0 ? ThemeStyle.Light : ThemeStyle.Dark;
 				}
 				case true:
 					return ThemeStyle.Dark;
