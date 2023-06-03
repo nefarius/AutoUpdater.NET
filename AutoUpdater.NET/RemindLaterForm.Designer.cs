@@ -99,9 +99,8 @@
 			// 
 			resources.ApplyResources(labelTitle, "labelTitle");
 			tableLayoutPanel.SetColumnSpan(labelTitle, 2);
+			labelTitle.FontWeight = ReaLTaiizor.Extension.Poison.PoisonLabelWeight.Bold;
 			labelTitle.Name = "labelTitle";
-			labelTitle.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
-			labelTitle.UseStyleColors = true;
 			// 
 			// poisonStyleManager
 			// 
