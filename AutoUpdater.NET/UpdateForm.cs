@@ -16,13 +16,16 @@ namespace AutoUpdaterDotNET;
 internal sealed partial class UpdateForm : PoisonForm
 {
 	private readonly UpdateInfoEventArgs _args;
+	private readonly UpdateFormPreferences _preferences;
 
-	public UpdateForm(UpdateInfoEventArgs args)
+	public UpdateForm(UpdateInfoEventArgs args, UpdateFormPreferences preferences)
 	{
 		_args = args;
+		_preferences = preferences;
+
 		InitializeComponent();
 
-		poisonStyleManager.Theme = ThemeStyle.Light;
+		poisonStyleManager.Theme = _preferences.Theme;
 
 		InitializeBrowserControl();
 		buttonSkip.Visible = AutoUpdater.ShowSkipButton;
@@ -111,6 +114,15 @@ internal sealed partial class UpdateForm : PoisonForm
 		webView2.CoreWebView2.Settings.AreDevToolsEnabled = Debugger.IsAttached;
 		webView2.CoreWebView2.Settings.UserAgent = AutoUpdater.GetUserAgent();
 		webView2.CoreWebView2.Profile.ClearBrowsingDataAsync();
+
+		webView2.CoreWebView2.Profile.PreferredColorScheme = _preferences.Theme switch
+		{
+			ThemeStyle.Default => CoreWebView2PreferredColorScheme.Auto,
+			ThemeStyle.Light => CoreWebView2PreferredColorScheme.Light,
+			ThemeStyle.Dark => CoreWebView2PreferredColorScheme.Dark,
+			_ => webView2.CoreWebView2.Profile.PreferredColorScheme
+		};
+
 		webView2.Show();
 		webView2.BringToFront();
 		if (null != AutoUpdater.BasicAuthChangeLog)

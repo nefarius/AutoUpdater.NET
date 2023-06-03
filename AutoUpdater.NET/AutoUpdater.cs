@@ -91,6 +91,8 @@ public static class AutoUpdater
 
     private static IWin32Window _owner;
 
+    private static UpdateFormPreferences _preferences = new();
+
     private static Timer _remindLaterTimer;
 
     internal static Uri BaseUri;
@@ -680,7 +682,7 @@ public static class AutoUpdater
     /// </summary>
     public static bool DownloadUpdate(UpdateInfoEventArgs args)
     {
-        using var downloadDialog = new DownloadUpdateDialog(args);
+        using var downloadDialog = new DownloadUpdateDialog(args, _preferences);
 
         try
         {
@@ -699,7 +701,7 @@ public static class AutoUpdater
     /// </summary>
     public static void ShowUpdateForm(UpdateInfoEventArgs args)
     {
-        using var updateForm = new UpdateForm(args);
+        using var updateForm = new UpdateForm(args, _preferences);
 
         if (UpdateFormSize.HasValue)
         {
