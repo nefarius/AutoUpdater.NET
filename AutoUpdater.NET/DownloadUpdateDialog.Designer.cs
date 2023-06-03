@@ -69,6 +69,7 @@
 			MaximizeBox = false;
 			MinimizeBox = false;
 			Name = "DownloadUpdateDialog";
+			ShadowType = ReaLTaiizor.Enum.Poison.FormShadowType.None;
 			StyleManager = poisonStyleManager;
 			FormClosing += DownloadUpdateDialog_FormClosing;
 			Load += DownloadUpdateDialogLoad;
