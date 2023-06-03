@@ -8,7 +8,7 @@ internal sealed class UpdateFormPreferences
 	/// <summary>
 	///     Gets or sets whether the operating system app theme preference should be mirrored.
 	/// </summary>
-	public bool UseOperatingSystemTheme { get; set; } = true;
+	public bool UseOperatingSystemTheme { get; set; } = false;
 
 	/// <summary>
 	///     Gets or sets whether dark theme should be used. Overrides <see cref="UseOperatingSystemTheme" /> if set.
@@ -16,7 +16,8 @@ internal sealed class UpdateFormPreferences
 	public bool UseDarkTheme { get; set; } = false;
 
 	/// <summary>
-	///     Gets the desired <see cref="ThemeStyle" />.
+	///     Gets the desired <see cref="ThemeStyle" />. If both <see cref="UseOperatingSystemTheme" /> and
+	///     <see cref="UseDarkTheme" /> are set to false, the light theme is enforced.
 	/// </summary>
 	public ThemeStyle Theme
 	{

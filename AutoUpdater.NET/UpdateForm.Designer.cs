@@ -62,26 +62,20 @@ namespace AutoUpdaterDotNET
 			// 
 			resources.ApplyResources(labelReleaseNotes, "labelReleaseNotes");
 			labelReleaseNotes.Name = "labelReleaseNotes";
-			labelReleaseNotes.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
-			labelReleaseNotes.UseStyleColors = true;
 			// 
 			// buttonUpdate
 			// 
 			resources.ApplyResources(buttonUpdate, "buttonUpdate");
 			buttonUpdate.Highlight = true;
 			buttonUpdate.Name = "buttonUpdate";
-			buttonUpdate.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
 			buttonUpdate.UseSelectable = true;
-			buttonUpdate.UseStyleColors = true;
 			buttonUpdate.Click += ButtonUpdateClick;
 			// 
 			// buttonRemindLater
 			// 
 			resources.ApplyResources(buttonRemindLater, "buttonRemindLater");
 			buttonRemindLater.Name = "buttonRemindLater";
-			buttonRemindLater.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
 			buttonRemindLater.UseSelectable = true;
-			buttonRemindLater.UseStyleColors = true;
 			buttonRemindLater.Click += ButtonRemindLaterClick;
 			// 
 			// buttonSkip
@@ -89,9 +83,7 @@ namespace AutoUpdaterDotNET
 			buttonSkip.DialogResult = System.Windows.Forms.DialogResult.Abort;
 			resources.ApplyResources(buttonSkip, "buttonSkip");
 			buttonSkip.Name = "buttonSkip";
-			buttonSkip.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
 			buttonSkip.UseSelectable = true;
-			buttonSkip.UseStyleColors = true;
 			buttonSkip.UseVisualStyleBackColor = true;
 			buttonSkip.Click += ButtonSkipClick;
 			// 
