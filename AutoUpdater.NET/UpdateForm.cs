@@ -207,7 +207,7 @@ internal sealed partial class UpdateForm : PoisonForm
 	{
 		if (AutoUpdater.LetUserSelectRemindLater)
 		{
-			using var remindLaterForm = new RemindLaterForm();
+			using var remindLaterForm = new RemindLaterForm(_preferences);
 			DialogResult dialogResult = remindLaterForm.ShowDialog(this);
 
 			switch (dialogResult)
