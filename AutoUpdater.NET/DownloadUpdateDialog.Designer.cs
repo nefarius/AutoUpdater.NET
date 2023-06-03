@@ -31,9 +31,9 @@
 			components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DownloadUpdateDialog));
 			progressBar = new ReaLTaiizor.Controls.PoisonProgressBar();
+			poisonStyleManager = new ReaLTaiizor.Manager.PoisonStyleManager(components);
 			labelInformation = new ReaLTaiizor.Controls.PoisonLabel();
 			labelSize = new ReaLTaiizor.Controls.PoisonLabel();
-			poisonStyleManager = new ReaLTaiizor.Manager.PoisonStyleManager(components);
 			((System.ComponentModel.ISupportInitialize)poisonStyleManager).BeginInit();
 			SuspendLayout();
 			// 
@@ -41,6 +41,10 @@
 			// 
 			resources.ApplyResources(progressBar, "progressBar");
 			progressBar.Name = "progressBar";
+			// 
+			// poisonStyleManager
+			// 
+			poisonStyleManager.Owner = null;
 			// 
 			// labelInformation
 			// 
@@ -52,16 +56,12 @@
 			resources.ApplyResources(labelSize, "labelSize");
 			labelSize.Name = "labelSize";
 			// 
-			// poisonStyleManager
-			// 
-			poisonStyleManager.Owner = null;
-			// 
 			// DownloadUpdateDialog
 			// 
 			resources.ApplyResources(this, "$this");
 			AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			BackImage = Properties.Resources.download_32;
-			BackImagePadding = new System.Windows.Forms.Padding(360, 20, 0, 0);
+			BackImagePadding = new System.Windows.Forms.Padding(355, 20, 0, 0);
 			BackMaxSize = 32;
 			Controls.Add(labelSize);
 			Controls.Add(labelInformation);
@@ -69,6 +69,7 @@
 			MaximizeBox = false;
 			MinimizeBox = false;
 			Name = "DownloadUpdateDialog";
+			Resizable = false;
 			ShadowType = ReaLTaiizor.Enum.Poison.FormShadowType.None;
 			StyleManager = poisonStyleManager;
 			FormClosing += DownloadUpdateDialog_FormClosing;

@@ -11,14 +11,12 @@ using System.Security.Cryptography;
 using System.Windows.Forms;
 using AutoUpdaterDotNET.Properties;
 using ReaLTaiizor.Forms;
-using ReaLTaiizor.Manager;
 
 namespace AutoUpdaterDotNET;
 
 internal partial class DownloadUpdateDialog : PoisonForm
 {
 	private readonly UpdateInfoEventArgs _args;
-	private readonly UpdateFormPreferences _preferences;
 
 	private DateTime _startedAt;
 
@@ -29,9 +27,10 @@ internal partial class DownloadUpdateDialog : PoisonForm
 	public DownloadUpdateDialog(UpdateInfoEventArgs args, UpdateFormPreferences preferences)
 	{
 		_args = args;
-		_preferences = preferences;
 
 		InitializeComponent();
+
+		poisonStyleManager.Theme = preferences.Theme;
 
 		if (AutoUpdater.Mandatory && AutoUpdater.UpdateMode == Mode.ForcedDownload)
 		{
