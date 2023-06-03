@@ -36,11 +36,9 @@
 			comboBoxRemindLater = new ReaLTaiizor.Controls.PoisonComboBox();
 			buttonOK = new ReaLTaiizor.Controls.PoisonButton();
 			tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-			pictureBoxIcon = new System.Windows.Forms.PictureBox();
 			labelTitle = new ReaLTaiizor.Controls.PoisonLabel();
 			poisonStyleManager = new ReaLTaiizor.Manager.PoisonStyleManager(components);
 			tableLayoutPanel.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)pictureBoxIcon).BeginInit();
 			((System.ComponentModel.ISupportInitialize)poisonStyleManager).BeginInit();
 			SuspendLayout();
 			// 
@@ -88,7 +86,6 @@
 			// tableLayoutPanel
 			// 
 			resources.ApplyResources(tableLayoutPanel, "tableLayoutPanel");
-			tableLayoutPanel.Controls.Add(pictureBoxIcon, 0, 0);
 			tableLayoutPanel.Controls.Add(labelTitle, 1, 0);
 			tableLayoutPanel.Controls.Add(radioButtonNo, 1, 3);
 			tableLayoutPanel.Controls.Add(comboBoxRemindLater, 2, 2);
@@ -96,14 +93,6 @@
 			tableLayoutPanel.Controls.Add(labelDescription, 1, 1);
 			tableLayoutPanel.Controls.Add(buttonOK, 2, 4);
 			tableLayoutPanel.Name = "tableLayoutPanel";
-			// 
-			// pictureBoxIcon
-			// 
-			resources.ApplyResources(pictureBoxIcon, "pictureBoxIcon");
-			pictureBoxIcon.Image = Properties.Resources.clock_go_32;
-			pictureBoxIcon.Name = "pictureBoxIcon";
-			tableLayoutPanel.SetRowSpan(pictureBoxIcon, 2);
-			pictureBoxIcon.TabStop = false;
 			// 
 			// labelTitle
 			// 
@@ -132,7 +121,6 @@
 			Load += RemindLaterFormLoad;
 			tableLayoutPanel.ResumeLayout(false);
 			tableLayoutPanel.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)pictureBoxIcon).EndInit();
 			((System.ComponentModel.ISupportInitialize)poisonStyleManager).EndInit();
 			ResumeLayout(false);
 		}
@@ -144,7 +132,6 @@
 		private ReaLTaiizor.Controls.PoisonComboBox comboBoxRemindLater;
 		private ReaLTaiizor.Controls.PoisonButton buttonOK;
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanel;
-		private System.Windows.Forms.PictureBox pictureBoxIcon;
 		private ReaLTaiizor.Controls.PoisonLabel labelTitle;
 		private ReaLTaiizor.Manager.PoisonStyleManager poisonStyleManager;
 	}
