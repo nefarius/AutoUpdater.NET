@@ -104,10 +104,11 @@
 			// 
 			// poisonStyleManager
 			// 
-			poisonStyleManager.Owner = null;
+			poisonStyleManager.Owner = this;
 			// 
 			// RemindLaterForm
 			// 
+			AcceptButton = buttonOK;
 			resources.ApplyResources(this, "$this");
 			AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			BackImage = Properties.Resources.clock_go_32;
