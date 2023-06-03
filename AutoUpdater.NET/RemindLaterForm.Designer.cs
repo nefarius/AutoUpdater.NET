@@ -47,6 +47,7 @@
 			resources.ApplyResources(labelDescription, "labelDescription");
 			tableLayoutPanel.SetColumnSpan(labelDescription, 2);
 			labelDescription.Name = "labelDescription";
+			labelDescription.WrapToLine = true;
 			// 
 			// radioButtonYes
 			// 
@@ -86,12 +87,12 @@
 			// tableLayoutPanel
 			// 
 			resources.ApplyResources(tableLayoutPanel, "tableLayoutPanel");
-			tableLayoutPanel.Controls.Add(labelTitle, 1, 0);
-			tableLayoutPanel.Controls.Add(radioButtonNo, 1, 3);
-			tableLayoutPanel.Controls.Add(comboBoxRemindLater, 2, 2);
-			tableLayoutPanel.Controls.Add(radioButtonYes, 1, 2);
-			tableLayoutPanel.Controls.Add(labelDescription, 1, 1);
-			tableLayoutPanel.Controls.Add(buttonOK, 2, 4);
+			tableLayoutPanel.Controls.Add(labelTitle, 0, 0);
+			tableLayoutPanel.Controls.Add(radioButtonNo, 0, 3);
+			tableLayoutPanel.Controls.Add(comboBoxRemindLater, 1, 2);
+			tableLayoutPanel.Controls.Add(radioButtonYes, 0, 2);
+			tableLayoutPanel.Controls.Add(labelDescription, 0, 1);
+			tableLayoutPanel.Controls.Add(buttonOK, 1, 4);
 			tableLayoutPanel.Name = "tableLayoutPanel";
 			// 
 			// labelTitle
@@ -99,6 +100,8 @@
 			resources.ApplyResources(labelTitle, "labelTitle");
 			tableLayoutPanel.SetColumnSpan(labelTitle, 2);
 			labelTitle.Name = "labelTitle";
+			labelTitle.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Blue;
+			labelTitle.UseStyleColors = true;
 			// 
 			// poisonStyleManager
 			// 
@@ -109,7 +112,7 @@
 			resources.ApplyResources(this, "$this");
 			AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			BackImage = Properties.Resources.clock_go_32;
-			BackImagePadding = new System.Windows.Forms.Padding(510, 24, 0, 0);
+			BackImagePadding = new System.Windows.Forms.Padding(430, 24, 0, 0);
 			BackMaxSize = 32;
 			Controls.Add(tableLayoutPanel);
 			MaximizeBox = false;

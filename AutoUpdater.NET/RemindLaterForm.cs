@@ -6,9 +6,11 @@ namespace AutoUpdaterDotNET;
 
 internal partial class RemindLaterForm : PoisonForm
 {
-	public RemindLaterForm()
+	public RemindLaterForm(UpdateFormPreferences preferences)
 	{
 		InitializeComponent();
+
+		poisonStyleManager.Theme = preferences.Theme;
 	}
 
 	public RemindLaterFormat RemindLaterFormat { get; private set; }
